@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                    ./YOUR_SRN-1
+                    ./INVALID_FILE   # Intentional error: This file does not exist
                     '''
                 }
             }
